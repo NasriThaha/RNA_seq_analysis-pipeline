@@ -2,16 +2,18 @@
 
 This repository contains scripts for RNA-seq data analysis including:
 
-- Differential Gene Expression (DEG) analysis using edgeR
+- Differential Gene Expression (DEGs) analysis using edgeR
 - Gene Ontology (GO) enrichment analysis
-- KEGG pathway analysis
+- Pathway enrichment analysis
 - Data visualization (heatmaps, treeplots)
 
-## Tools Used
+## Major Tools and Packages Used
 - R
 - edgeR
 - ggplot2
 - clusterProfiler
+- pheatmap
+- org.Hs.eg.db
 
 ## Workflow
 1. Data preprocessing
